@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.fivethings.Page2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/walk"
+        android:scaleType="centerCrop"
+        />
+    <Button
+        android:id="@+id/button_for_info"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape3"
+        android:text="Info"
+        android:onClick="getInformation"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_alignTop="@+id/button_for_next"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/button_for_next"
+        android:text="NEXT"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape3"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button_for_info"
+        android:layout_toEndOf="@+id/button_for_info" />
+</RelativeLayout>

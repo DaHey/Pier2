@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.fivethings.Page1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/monster"
+        android:scaleType="centerCrop"
+        />
+    <Button
+        android:id="@+id/button_for_info"
+        android:text="Info"
+        android:textColor="#FFFCC7"
+        android:textSize="20sp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape2"
+        android:onClick="getInformation"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+    <Button
+        android:id="@+id/button_for_next"
+        android:text="NEXT"
+        android:textColor="#FFFCC7"
+        android:textSize="18sp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape2"
+        android:layout_below="@+id/button_for_info"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.android.fivethings.Page3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/newvision"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:id="@+id/imageView" />
+    <Button
+        android:textSize="18sp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Info"
+        android:textColor="#000000"
+        android:background="@drawable/buttonshape4"
+        android:onClick="getInformation"
+        android:id="@+id/button_for_info"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_below="@+id/imageView"
+        android:layout_toLeftOf="@+id/button_for_next"
+        android:layout_toStartOf="@+id/button_for_next" />
+    <Button
+        android:id="@+id/button_for_next"
+        android:text="NEXT"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape4"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

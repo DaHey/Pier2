@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.fivethings.MainActivity">
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cover"
+        android:adjustViewBounds="true"
+        android:maxHeight="1000dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:text="At Pier-2, Collision is a Driving Force"
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/photo"
+        android:layout_alignLeft="@+id/photo"
+        android:layout_alignStart="@+id/photo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It was once an abandoned and forgotten warehouse buried in history, with a group of persistent artist who injected waves of creativity and inspiration into the area, the Pier-2 area was released and re-born making the region a place where tourist and locals can come to enjoy fine art. With the collision of an old area and new fine art, Pier-2 becomes an area of new vitality and liveliness. "
+        android:textSize="14sp"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:id="@+id/textView3" />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:text=""
+        android:textColor="#FFDBB3"
+        android:textSize="30sp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/play"
+        android:scaleType="centerCrop"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
